@@ -45,8 +45,8 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    # App password
-    server.login('alexmies95@gmail.com', 'mpccxixozwvfkbyq')
+    # App login and password
+    server.login('alexmies95@gmail.com', 'XXXXXXXXXXXXXX')
 
     # Email contents
     subject = 'Price fell down!'
